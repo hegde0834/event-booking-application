@@ -14,6 +14,15 @@ npm run build    # production build in dist/
 
 Requires Node.js 18 or newer.
 
+## Deploy to Vercel
+
+1. Import the repository in Vercel.
+2. Set the project **Root Directory** to `celebrationcraft`.
+3. Use the Vite defaults, or set the build command to `npm run build` and the
+   output directory to `dist`.
+4. Deploy. The included `vercel.json` sends app routes to `index.html`, so
+   routes such as `/events` also work when opened directly.
+
 ## Pages
 
 | Route     | What it does                                                         |
